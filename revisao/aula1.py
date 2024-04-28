@@ -1,5 +1,5 @@
 """Faça um algoritmo que receba 2 notas
- e calcule a média aritmética, 
+ e calcule a media  aritmetica  e depois  calcule se ele foi aprovado  , reprovado ou se esta  em recuperaçao ,  
 """
 numero1 = float(input("Digite o primeiro numero: "))
 numero2 = float(input("Digite o primeiro numero: "))
