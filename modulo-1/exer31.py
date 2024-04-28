@@ -2,7 +2,6 @@ idade = int(input('Digite sua idade'))
 anoAtual = 2024
 mesAtual = 4
 
-
 if anoAtual >= mesAtual:
     anoNascimento = (anoAtual - idade)-1
 else:
