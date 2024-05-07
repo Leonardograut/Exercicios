@@ -7,4 +7,4 @@ nome = ['','','','','']
 for x in range (5):
     nome[x] = (input('Digite o seu nome '))
 for z in range (5):
-    print(nome[z],z)
+    print('Nome :',nome[z],'na posiçao',z)
