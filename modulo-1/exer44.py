@@ -5,12 +5,22 @@
 """
 
 
-usuarios=['','','','','']
+usuario=['','','','','']
 senha = [0,0,0,0,0]
 
 for x in range(5):
-    usuarios[x] = (input('Digite o seu nome '))
+    usuario[x] = (input('Digite o seu nome '))
     senha[x] = (input('Digite a sua senha '))
 for i in range(5):
-    print('Nome :',usuarios[i],'na posiçao',i)
-    print('Senha :',senha[i],'na posiçao',i)   
+    print('Nome :',usuario[i],'na posiçao',i)
+    print('Senha :',senha[i],'na posiçao',i) 
+
+    if usuario == usuario and senha == senha :
+        
+        print('Login efetuado com sucesso')
+        print('-------------------------')
+        print('seja bem vindo ',usuario)
+   
+
+      
+       
