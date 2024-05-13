@@ -1,0 +1,1029 @@
+[
+    {
+        "label": "somar",
+        "importPath": "exercicio02",
+        "description": "exercicio02",
+        "isExtraImport": true,
+        "detail": "exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "dividir",
+        "importPath": "exercicio02",
+        "description": "exercicio02",
+        "isExtraImport": true,
+        "detail": "exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "resto",
+        "importPath": "exercicio02",
+        "description": "exercicio02",
+        "isExtraImport": true,
+        "detail": "exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "subtrair",
+        "importPath": "exercicio02",
+        "description": "exercicio02",
+        "isExtraImport": true,
+        "detail": "exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicar",
+        "importPath": "exercicio02",
+        "description": "exercicio02",
+        "isExtraImport": true,
+        "detail": "exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "piramide",
+        "importPath": "exercicio02",
+        "description": "exercicio02",
+        "isExtraImport": true,
+        "detail": "exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "vogais",
+        "importPath": "exercicio02",
+        "description": "exercicio02",
+        "isExtraImport": true,
+        "detail": "exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "estoque",
+        "importPath": "exercicio02",
+        "description": "exercicio02",
+        "isExtraImport": true,
+        "detail": "exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "modulo-1.exer01",
+        "description": "modulo-1.exer01",
+        "peekOfCode": "nome = input('Digite seu nome: ')\nprint(f'Olá, {nome}!')",
+        "detail": "modulo-1.exer01",
+        "documentation": {}
+    },
+    {
+        "label": "nomes",
+        "kind": 5,
+        "importPath": "modulo-1.exer02",
+        "description": "modulo-1.exer02",
+        "peekOfCode": "nomes = \"leonardo,jose,maria\"\nprint(nomes)",
+        "detail": "modulo-1.exer02",
+        "documentation": {}
+    },
+    {
+        "label": "nota1",
+        "kind": 5,
+        "importPath": "modulo-1.exer03",
+        "description": "modulo-1.exer03",
+        "peekOfCode": "nota1 = int(input(\" Digite a primeira nota do aluno: \"))\nnota2 = int(input(\" Digite a segunda nota do aluno: \"))\nmedia = (nota1 + nota2) / 2\nprint(f'A média do aluno {nome} é {media}')",
+        "detail": "modulo-1.exer03",
+        "documentation": {}
+    },
+    {
+        "label": "nota2",
+        "kind": 5,
+        "importPath": "modulo-1.exer03",
+        "description": "modulo-1.exer03",
+        "peekOfCode": "nota2 = int(input(\" Digite a segunda nota do aluno: \"))\nmedia = (nota1 + nota2) / 2\nprint(f'A média do aluno {nome} é {media}')",
+        "detail": "modulo-1.exer03",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "modulo-1.exer03",
+        "description": "modulo-1.exer03",
+        "peekOfCode": "media = (nota1 + nota2) / 2\nprint(f'A média do aluno {nome} é {media}')",
+        "detail": "modulo-1.exer03",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "modulo-1.exer04",
+        "description": "modulo-1.exer04",
+        "peekOfCode": "nome = input(\"Digite o Nome do Funcionário:\")\nsalario = input(\"informe o salário do funcionário: \")\nidade = input(\"Informe a idade do funcionaro: \")\nprint (\"o funcionaro\",nome,\"tem o salario\",salario,\" e idade de \",idade,\"anos\")",
+        "detail": "modulo-1.exer04",
+        "documentation": {}
+    },
+    {
+        "label": "salario",
+        "kind": 5,
+        "importPath": "modulo-1.exer04",
+        "description": "modulo-1.exer04",
+        "peekOfCode": "salario = input(\"informe o salário do funcionário: \")\nidade = input(\"Informe a idade do funcionaro: \")\nprint (\"o funcionaro\",nome,\"tem o salario\",salario,\" e idade de \",idade,\"anos\")",
+        "detail": "modulo-1.exer04",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "modulo-1.exer04",
+        "description": "modulo-1.exer04",
+        "peekOfCode": "idade = input(\"Informe a idade do funcionaro: \")\nprint (\"o funcionaro\",nome,\"tem o salario\",salario,\" e idade de \",idade,\"anos\")",
+        "detail": "modulo-1.exer04",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "modulo-1.exer05",
+        "description": "modulo-1.exer05",
+        "peekOfCode": "num1 = int(input('Digite o primeirom numero'))\nnum2 = int(input('Digite o segundo numero'))\nsoma = num1+num2\nsubtracao = num1-num2\ndivisao = num1/num2\nmutiplicacao = num1*num2\nprint('soma',soma)\nprint('subtracao',subtracao)\nprint('divisao',divisao)\nprint('multiplicacao',mutiplicacao)",
+        "detail": "modulo-1.exer05",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "modulo-1.exer05",
+        "description": "modulo-1.exer05",
+        "peekOfCode": "num2 = int(input('Digite o segundo numero'))\nsoma = num1+num2\nsubtracao = num1-num2\ndivisao = num1/num2\nmutiplicacao = num1*num2\nprint('soma',soma)\nprint('subtracao',subtracao)\nprint('divisao',divisao)\nprint('multiplicacao',mutiplicacao)",
+        "detail": "modulo-1.exer05",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "modulo-1.exer05",
+        "description": "modulo-1.exer05",
+        "peekOfCode": "soma = num1+num2\nsubtracao = num1-num2\ndivisao = num1/num2\nmutiplicacao = num1*num2\nprint('soma',soma)\nprint('subtracao',subtracao)\nprint('divisao',divisao)\nprint('multiplicacao',mutiplicacao)",
+        "detail": "modulo-1.exer05",
+        "documentation": {}
+    },
+    {
+        "label": "subtracao",
+        "kind": 5,
+        "importPath": "modulo-1.exer05",
+        "description": "modulo-1.exer05",
+        "peekOfCode": "subtracao = num1-num2\ndivisao = num1/num2\nmutiplicacao = num1*num2\nprint('soma',soma)\nprint('subtracao',subtracao)\nprint('divisao',divisao)\nprint('multiplicacao',mutiplicacao)",
+        "detail": "modulo-1.exer05",
+        "documentation": {}
+    },
+    {
+        "label": "divisao",
+        "kind": 5,
+        "importPath": "modulo-1.exer05",
+        "description": "modulo-1.exer05",
+        "peekOfCode": "divisao = num1/num2\nmutiplicacao = num1*num2\nprint('soma',soma)\nprint('subtracao',subtracao)\nprint('divisao',divisao)\nprint('multiplicacao',mutiplicacao)",
+        "detail": "modulo-1.exer05",
+        "documentation": {}
+    },
+    {
+        "label": "mutiplicacao",
+        "kind": 5,
+        "importPath": "modulo-1.exer05",
+        "description": "modulo-1.exer05",
+        "peekOfCode": "mutiplicacao = num1*num2\nprint('soma',soma)\nprint('subtracao',subtracao)\nprint('divisao',divisao)\nprint('multiplicacao',mutiplicacao)",
+        "detail": "modulo-1.exer05",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "modulo-1.exer06",
+        "description": "modulo-1.exer06",
+        "peekOfCode": "a = 5\nb = 10\nc = a\na = b\nb= c\nprint(a)\nprint(b)",
+        "detail": "modulo-1.exer06",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "modulo-1.exer06",
+        "description": "modulo-1.exer06",
+        "peekOfCode": "b = 10\nc = a\na = b\nb= c\nprint(a)\nprint(b)",
+        "detail": "modulo-1.exer06",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "modulo-1.exer06",
+        "description": "modulo-1.exer06",
+        "peekOfCode": "c = a\na = b\nb= c\nprint(a)\nprint(b)",
+        "detail": "modulo-1.exer06",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "modulo-1.exer06",
+        "description": "modulo-1.exer06",
+        "peekOfCode": "a = b\nb= c\nprint(a)\nprint(b)",
+        "detail": "modulo-1.exer06",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "modulo-1.exer08",
+        "description": "modulo-1.exer08",
+        "peekOfCode": "num1 = float(input('Digite a primeiro nota'))\nnum2 = float(input('Digite a segundo nota'))\nnum3 = float(input('Digite a terceira nota'))\nmedia = (num1+num2+num3)/3\nif media >=7:\n    print(\"aluno aprovado com media:\",media)\nelif media >=4:\n    print(\"aluno em recuperacao\",media)\nelse:\n    print(\"Aluno Reprovado com media \",media)",
+        "detail": "modulo-1.exer08",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "modulo-1.exer08",
+        "description": "modulo-1.exer08",
+        "peekOfCode": "num2 = float(input('Digite a segundo nota'))\nnum3 = float(input('Digite a terceira nota'))\nmedia = (num1+num2+num3)/3\nif media >=7:\n    print(\"aluno aprovado com media:\",media)\nelif media >=4:\n    print(\"aluno em recuperacao\",media)\nelse:\n    print(\"Aluno Reprovado com media \",media)",
+        "detail": "modulo-1.exer08",
+        "documentation": {}
+    },
+    {
+        "label": "num3",
+        "kind": 5,
+        "importPath": "modulo-1.exer08",
+        "description": "modulo-1.exer08",
+        "peekOfCode": "num3 = float(input('Digite a terceira nota'))\nmedia = (num1+num2+num3)/3\nif media >=7:\n    print(\"aluno aprovado com media:\",media)\nelif media >=4:\n    print(\"aluno em recuperacao\",media)\nelse:\n    print(\"Aluno Reprovado com media \",media)",
+        "detail": "modulo-1.exer08",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "modulo-1.exer08",
+        "description": "modulo-1.exer08",
+        "peekOfCode": "media = (num1+num2+num3)/3\nif media >=7:\n    print(\"aluno aprovado com media:\",media)\nelif media >=4:\n    print(\"aluno em recuperacao\",media)\nelse:\n    print(\"Aluno Reprovado com media \",media)",
+        "detail": "modulo-1.exer08",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "modulo-1.exer09",
+        "description": "modulo-1.exer09",
+        "peekOfCode": "numero = int(input(\"Digite um numero inteiro: \"))\nif numero%2 == 0:\n print(\"Numero é par\", numero)\nelse:\n print(\"Numero é impar\", numero)",
+        "detail": "modulo-1.exer09",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "modulo-1.exer10",
+        "description": "modulo-1.exer10",
+        "peekOfCode": "num = int(input('Digite um numero'))\nif num == 1 :\n    print(\"Janeiro\")\nelif num == 2:\n    print(\"Fevereiro\")\nelif num == 3:\n    print(\"Março\")\nelif num == 4:\n    print(\"Abril\")\nelif num == 5:",
+        "detail": "modulo-1.exer10",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "modulo-1.exer11",
+        "description": "modulo-1.exer11",
+        "peekOfCode": "numero = int(input(\"Digite um numero inteiro\"))\nfor x in range(1, 11):\n print(\"A tabuada de\", numero, \"Vezes \" , x, \"é:\",\nnumero*x,\" \\n \")",
+        "detail": "modulo-1.exer11",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "modulo-1.exer13",
+        "description": "modulo-1.exer13",
+        "peekOfCode": "numero = int(input(\"Digite um numero inteiro\"))\nfor x in range(1, 11):\n print(\"A tabuada de\", numero, \"Vezes \" , x, \"é:\",\nnumero*x,\" \\n \")",
+        "detail": "modulo-1.exer13",
+        "documentation": {}
+    },
+    {
+        "label": "time1",
+        "kind": 5,
+        "importPath": "modulo-1.exer14",
+        "description": "modulo-1.exer14",
+        "peekOfCode": "time1 = int(input('Digite a quantidade de gols time'))\nsport =(input('Digite o seugndo time'))\ntime2 = int(input('Digite o segundo time'))\nif time1 > time2:\n    print(\"time 1 vencedor\",\"com quantidades de  gols : \",time1, santacruz)\nelif time1 == time2:\n    print(\"time empatados\",time1,time2)\nelif time2 >time1:\n    print(\"time 2 vencedor\",\"com quantidades de  gols : \",time2 ,sport)\nelse:",
+        "detail": "modulo-1.exer14",
+        "documentation": {}
+    },
+    {
+        "label": "time2",
+        "kind": 5,
+        "importPath": "modulo-1.exer14",
+        "description": "modulo-1.exer14",
+        "peekOfCode": "time2 = int(input('Digite o segundo time'))\nif time1 > time2:\n    print(\"time 1 vencedor\",\"com quantidades de  gols : \",time1, santacruz)\nelif time1 == time2:\n    print(\"time empatados\",time1,time2)\nelif time2 >time1:\n    print(\"time 2 vencedor\",\"com quantidades de  gols : \",time2 ,sport)\nelse:\n    print(\"ninguem ganhou nem perdeu\")",
+        "detail": "modulo-1.exer14",
+        "documentation": {}
+    },
+    {
+        "label": "numLitros",
+        "kind": 5,
+        "importPath": "modulo-1.exer15",
+        "description": "modulo-1.exer15",
+        "peekOfCode": "numLitros = float(input('Digite a quantidade de litros'))\ntipoCombustivel= (input('Digite o tipo de combustivel '))\nprecoG = 5.80 * numLitros\nprecoE = 4.90 * numLitros\nif tipoCombustivel == \"e\" or  tipoCombustivel == \"E\":\n    print(\"Etanol\",precoE)\nelif tipoCombustivel == \"g\" or tipoCombustivel == \"G\":\n    print(\"Galosina\",precoG)\nelse:\n    print('nehum dos  dois')",
+        "detail": "modulo-1.exer15",
+        "documentation": {}
+    },
+    {
+        "label": "precoG",
+        "kind": 5,
+        "importPath": "modulo-1.exer15",
+        "description": "modulo-1.exer15",
+        "peekOfCode": "precoG = 5.80 * numLitros\nprecoE = 4.90 * numLitros\nif tipoCombustivel == \"e\" or  tipoCombustivel == \"E\":\n    print(\"Etanol\",precoE)\nelif tipoCombustivel == \"g\" or tipoCombustivel == \"G\":\n    print(\"Galosina\",precoG)\nelse:\n    print('nehum dos  dois')",
+        "detail": "modulo-1.exer15",
+        "documentation": {}
+    },
+    {
+        "label": "precoE",
+        "kind": 5,
+        "importPath": "modulo-1.exer15",
+        "description": "modulo-1.exer15",
+        "peekOfCode": "precoE = 4.90 * numLitros\nif tipoCombustivel == \"e\" or  tipoCombustivel == \"E\":\n    print(\"Etanol\",precoE)\nelif tipoCombustivel == \"g\" or tipoCombustivel == \"G\":\n    print(\"Galosina\",precoG)\nelse:\n    print('nehum dos  dois')",
+        "detail": "modulo-1.exer15",
+        "documentation": {}
+    },
+    {
+        "label": "hora01",
+        "kind": 5,
+        "importPath": "modulo-1.exer16",
+        "description": "modulo-1.exer16",
+        "peekOfCode": "hora01 = int(input('Digite a hora1:'))\nmin1 = int(input(\"Digite os minutos1: \"))\nhora02 = int(input('Digite o segundo valor'))\nmin2 = int(input(\"Digite os minutos2\"))\nif hora01 >12:\n    hora01 = hora01 -12\nif hora02 > 12:\n    hora02 = hora02 - 12\nhora = hora01 + hora02\nminuto = min1 + min2",
+        "detail": "modulo-1.exer16",
+        "documentation": {}
+    },
+    {
+        "label": "min1",
+        "kind": 5,
+        "importPath": "modulo-1.exer16",
+        "description": "modulo-1.exer16",
+        "peekOfCode": "min1 = int(input(\"Digite os minutos1: \"))\nhora02 = int(input('Digite o segundo valor'))\nmin2 = int(input(\"Digite os minutos2\"))\nif hora01 >12:\n    hora01 = hora01 -12\nif hora02 > 12:\n    hora02 = hora02 - 12\nhora = hora01 + hora02\nminuto = min1 + min2\nif minuto >=60:",
+        "detail": "modulo-1.exer16",
+        "documentation": {}
+    },
+    {
+        "label": "hora02",
+        "kind": 5,
+        "importPath": "modulo-1.exer16",
+        "description": "modulo-1.exer16",
+        "peekOfCode": "hora02 = int(input('Digite o segundo valor'))\nmin2 = int(input(\"Digite os minutos2\"))\nif hora01 >12:\n    hora01 = hora01 -12\nif hora02 > 12:\n    hora02 = hora02 - 12\nhora = hora01 + hora02\nminuto = min1 + min2\nif minuto >=60:\n    minuto = minuto -60",
+        "detail": "modulo-1.exer16",
+        "documentation": {}
+    },
+    {
+        "label": "min2",
+        "kind": 5,
+        "importPath": "modulo-1.exer16",
+        "description": "modulo-1.exer16",
+        "peekOfCode": "min2 = int(input(\"Digite os minutos2\"))\nif hora01 >12:\n    hora01 = hora01 -12\nif hora02 > 12:\n    hora02 = hora02 - 12\nhora = hora01 + hora02\nminuto = min1 + min2\nif minuto >=60:\n    minuto = minuto -60\n    hora = hora +1",
+        "detail": "modulo-1.exer16",
+        "documentation": {}
+    },
+    {
+        "label": "hora",
+        "kind": 5,
+        "importPath": "modulo-1.exer16",
+        "description": "modulo-1.exer16",
+        "peekOfCode": "hora = hora01 + hora02\nminuto = min1 + min2\nif minuto >=60:\n    minuto = minuto -60\n    hora = hora +1\nprint(f\" {hora} : {minuto} \")",
+        "detail": "modulo-1.exer16",
+        "documentation": {}
+    },
+    {
+        "label": "minuto",
+        "kind": 5,
+        "importPath": "modulo-1.exer16",
+        "description": "modulo-1.exer16",
+        "peekOfCode": "minuto = min1 + min2\nif minuto >=60:\n    minuto = minuto -60\n    hora = hora +1\nprint(f\" {hora} : {minuto} \")",
+        "detail": "modulo-1.exer16",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "modulo-1.exer17",
+        "description": "modulo-1.exer17",
+        "peekOfCode": "n = 0\nfor i in range(10):\n    print(\"valor de  soma \",0)\n    negativo = int(input(\"Digite  um numero\"))\n    if negativo <0:\n        n = n +1\nprint (\"Quantidade de numeros  negativos \",n)",
+        "detail": "modulo-1.exer17",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "modulo-1.exer18",
+        "description": "modulo-1.exer18",
+        "peekOfCode": "media = soma /10\nprint(\"media dos numeros e :\", media)",
+        "detail": "modulo-1.exer18",
+        "documentation": {}
+    },
+    {
+        "label": "nota1",
+        "kind": 5,
+        "importPath": "modulo-1.exer19",
+        "description": "modulo-1.exer19",
+        "peekOfCode": "nota1 = int(input(\"Digite a nota1 do usuario\"))\nnota2 = int(input(\"Digite a nota2 do usuario\"))\nwhile nota1 > 10 or nota1 < 0:\n    nota1 = int(input(\"Digite a nota2 do usuario\"))\nwhile nota2 > 10 or nota2 < 0:\n    nota2 = int(input(\"Digite a nota2 do usuario\"))\nmedia = (nota1 + nota2) / 2\nprint(media)\n'''escreva um codigo para ler as notas de  1 a  2 , avaliaçoes de um aluno calcule\n e imprima a media desse aluno, so devem ser aceitos valores validos, durante a leitura,(0 a 10) para cada nota.'''",
+        "detail": "modulo-1.exer19",
+        "documentation": {}
+    },
+    {
+        "label": "nota2",
+        "kind": 5,
+        "importPath": "modulo-1.exer19",
+        "description": "modulo-1.exer19",
+        "peekOfCode": "nota2 = int(input(\"Digite a nota2 do usuario\"))\nwhile nota1 > 10 or nota1 < 0:\n    nota1 = int(input(\"Digite a nota2 do usuario\"))\nwhile nota2 > 10 or nota2 < 0:\n    nota2 = int(input(\"Digite a nota2 do usuario\"))\nmedia = (nota1 + nota2) / 2\nprint(media)\n'''escreva um codigo para ler as notas de  1 a  2 , avaliaçoes de um aluno calcule\n e imprima a media desse aluno, so devem ser aceitos valores validos, durante a leitura,(0 a 10) para cada nota.'''",
+        "detail": "modulo-1.exer19",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "modulo-1.exer19",
+        "description": "modulo-1.exer19",
+        "peekOfCode": "media = (nota1 + nota2) / 2\nprint(media)\n'''escreva um codigo para ler as notas de  1 a  2 , avaliaçoes de um aluno calcule\n e imprima a media desse aluno, so devem ser aceitos valores validos, durante a leitura,(0 a 10) para cada nota.'''",
+        "detail": "modulo-1.exer19",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "modulo-1.exer21 (2)",
+        "description": "modulo-1.exer21 (2)",
+        "peekOfCode": "n = 0\nfor i in range(10):\n    print(\"valor de  soma \",0)\n    negativo = int(input(\"Digite  um numero\"))\n    if negativo <0:\n        n = n +1\nprint (\"Quantidade de numeros  negativos \",n)\n'''ler 10 valores e  escrever quantos  desses sao negativos'''",
+        "detail": "modulo-1.exer21 (2)",
+        "documentation": {}
+    },
+    {
+        "label": "senha",
+        "kind": 5,
+        "importPath": "modulo-1.exer25",
+        "description": "modulo-1.exer25",
+        "peekOfCode": "senha = int(input(\"Digite a senha do usuario\"))\nsecreto = 1234\ncont = 1\nwhile secreto != senha:\n  cont = cont+1\n  senha = int(input(\"Digite a senha do usuario\"))\n  if cont ==3 and senha != secreto:\n      print(\"Senha bolqueada\")\n      break\nif senha == secreto:",
+        "detail": "modulo-1.exer25",
+        "documentation": {}
+    },
+    {
+        "label": "secreto",
+        "kind": 5,
+        "importPath": "modulo-1.exer25",
+        "description": "modulo-1.exer25",
+        "peekOfCode": "secreto = 1234\ncont = 1\nwhile secreto != senha:\n  cont = cont+1\n  senha = int(input(\"Digite a senha do usuario\"))\n  if cont ==3 and senha != secreto:\n      print(\"Senha bolqueada\")\n      break\nif senha == secreto:\n      print(\"login efetuado com sucesso\")",
+        "detail": "modulo-1.exer25",
+        "documentation": {}
+    },
+    {
+        "label": "cont",
+        "kind": 5,
+        "importPath": "modulo-1.exer25",
+        "description": "modulo-1.exer25",
+        "peekOfCode": "cont = 1\nwhile secreto != senha:\n  cont = cont+1\n  senha = int(input(\"Digite a senha do usuario\"))\n  if cont ==3 and senha != secreto:\n      print(\"Senha bolqueada\")\n      break\nif senha == secreto:\n      print(\"login efetuado com sucesso\")\nelse:",
+        "detail": "modulo-1.exer25",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "modulo-1.exer29",
+        "description": "modulo-1.exer29",
+        "peekOfCode": "soma = 0\nfor x in range(2):\n  num = float(input(\"digite um numero\"))\n  soma = soma +num\nmedia = soma/2\nif media >= 7:\n   print('aprovado com ',media)\nelif media >=4:\n    print('Recuperacao',media)\nelse:",
+        "detail": "modulo-1.exer29",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "modulo-1.exer29",
+        "description": "modulo-1.exer29",
+        "peekOfCode": "media = soma/2\nif media >= 7:\n   print('aprovado com ',media)\nelif media >=4:\n    print('Recuperacao',media)\nelse:\n    print(\"Reprovado\",media)",
+        "detail": "modulo-1.exer29",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "modulo-1.exer30",
+        "description": "modulo-1.exer30",
+        "peekOfCode": "result = 's'\nwhile result == 's' or result == 'S':\n num = int(input(\"digite um numero\"))\n if num <1:\n    print(\" numero negativo\")\n else:\n    print (\"numero positivo\")\nresult = int(input(\"Dejesa realizar o novo calculo:\"))",
+        "detail": "modulo-1.exer30",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "modulo-1.exer30",
+        "description": "modulo-1.exer30",
+        "peekOfCode": "result = int(input(\"Dejesa realizar o novo calculo:\"))",
+        "detail": "modulo-1.exer30",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "modulo-1.exer31",
+        "description": "modulo-1.exer31",
+        "peekOfCode": "idade = int(input('Digite sua idade'))\nanoAtual = 2024\nmesAtual = 4\nif anoAtual >= mesAtual:\n    anoNascimento = (anoAtual - idade)-1\nelse:\n    anoNascimento = anoAtual -idade\nprint('o ano de nascimento e',anoNascimento)",
+        "detail": "modulo-1.exer31",
+        "documentation": {}
+    },
+    {
+        "label": "anoAtual",
+        "kind": 5,
+        "importPath": "modulo-1.exer31",
+        "description": "modulo-1.exer31",
+        "peekOfCode": "anoAtual = 2024\nmesAtual = 4\nif anoAtual >= mesAtual:\n    anoNascimento = (anoAtual - idade)-1\nelse:\n    anoNascimento = anoAtual -idade\nprint('o ano de nascimento e',anoNascimento)",
+        "detail": "modulo-1.exer31",
+        "documentation": {}
+    },
+    {
+        "label": "mesAtual",
+        "kind": 5,
+        "importPath": "modulo-1.exer31",
+        "description": "modulo-1.exer31",
+        "peekOfCode": "mesAtual = 4\nif anoAtual >= mesAtual:\n    anoNascimento = (anoAtual - idade)-1\nelse:\n    anoNascimento = anoAtual -idade\nprint('o ano de nascimento e',anoNascimento)",
+        "detail": "modulo-1.exer31",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"\"\"num1",
+        "kind": 5,
+        "importPath": "modulo-1.exer32",
+        "description": "modulo-1.exer32",
+        "peekOfCode": "\"\"\"\"\"num1 = int(input('Digite o primeiro numero'))\nnum2 = int(input('Digite o segundo numero'))\nnum3 = int(input('Digite o terceiro numero'))\nif num1 >num2 :\n    print(num1)\nelif num2 >num3:\n    print(num2)\nelse:\n    print(num3)\"\"\"\nref = 0",
+        "detail": "modulo-1.exer32",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "modulo-1.exer32",
+        "description": "modulo-1.exer32",
+        "peekOfCode": "num2 = int(input('Digite o segundo numero'))\nnum3 = int(input('Digite o terceiro numero'))\nif num1 >num2 :\n    print(num1)\nelif num2 >num3:\n    print(num2)\nelse:\n    print(num3)\"\"\"\nref = 0\nfor x in range(3):",
+        "detail": "modulo-1.exer32",
+        "documentation": {}
+    },
+    {
+        "label": "num3",
+        "kind": 5,
+        "importPath": "modulo-1.exer32",
+        "description": "modulo-1.exer32",
+        "peekOfCode": "num3 = int(input('Digite o terceiro numero'))\nif num1 >num2 :\n    print(num1)\nelif num2 >num3:\n    print(num2)\nelse:\n    print(num3)\"\"\"\nref = 0\nfor x in range(3):\n    n = int(input('Digite o segundo numero'))",
+        "detail": "modulo-1.exer32",
+        "documentation": {}
+    },
+    {
+        "label": "ref",
+        "kind": 5,
+        "importPath": "modulo-1.exer32",
+        "description": "modulo-1.exer32",
+        "peekOfCode": "ref = 0\nfor x in range(3):\n    n = int(input('Digite o segundo numero'))\n    if n > ref:\n        ref = n\nprint(ref)",
+        "detail": "modulo-1.exer32",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "modulo-1.exer35",
+        "description": "modulo-1.exer35",
+        "peekOfCode": "s = 0\nfor x in range (4):\n    num = int(input('Digite o segundo numero'))\n    s = s + num\nmedia =num/4\nprint('a  soma entre eles sao',s,\" e a media entre eles\",media)\n\"\"\"\"\"\"",
+        "detail": "modulo-1.exer35",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "modulo-1.exer36",
+        "description": "modulo-1.exer36",
+        "peekOfCode": "num = int(input('Digite o segundo numero'))\nantecessor = num -1\nsucessor = num + 1\nprint(\"atencessesor\",antecessor,\"sucessor\",sucessor)",
+        "detail": "modulo-1.exer36",
+        "documentation": {}
+    },
+    {
+        "label": "antecessor",
+        "kind": 5,
+        "importPath": "modulo-1.exer36",
+        "description": "modulo-1.exer36",
+        "peekOfCode": "antecessor = num -1\nsucessor = num + 1\nprint(\"atencessesor\",antecessor,\"sucessor\",sucessor)",
+        "detail": "modulo-1.exer36",
+        "documentation": {}
+    },
+    {
+        "label": "sucessor",
+        "kind": 5,
+        "importPath": "modulo-1.exer36",
+        "description": "modulo-1.exer36",
+        "peekOfCode": "sucessor = num + 1\nprint(\"atencessesor\",antecessor,\"sucessor\",sucessor)",
+        "detail": "modulo-1.exer36",
+        "documentation": {}
+    },
+    {
+        "label": "hora_inicio",
+        "kind": 5,
+        "importPath": "modulo-1.exer39",
+        "description": "modulo-1.exer39",
+        "peekOfCode": "hora_inicio = int(input(\"Digite a hora de início do jogo : \"))\nhora_fim = int(input(\"Digite a hora de fim do jogo : \"))\nif hora_fim >= hora_inicio:\n    duracao = hora_fim - hora_inicio\nelse:\n   duracao = 24 + hora_fim - hora_inicio\nprint(f\"A duração do jogo é de {duracao} horas.\")\n\"\"\"\nescreva um algoritmo para ler a hora  de inicio e a hora de fim de um jogo de xadrez considere apenas horas inteiras \nsem minutos e calcule a duracao do jogo em horas sabendo que o tempo maximo de duracao do jhogo e 24 horas",
+        "detail": "modulo-1.exer39",
+        "documentation": {}
+    },
+    {
+        "label": "hora_fim",
+        "kind": 5,
+        "importPath": "modulo-1.exer39",
+        "description": "modulo-1.exer39",
+        "peekOfCode": "hora_fim = int(input(\"Digite a hora de fim do jogo : \"))\nif hora_fim >= hora_inicio:\n    duracao = hora_fim - hora_inicio\nelse:\n   duracao = 24 + hora_fim - hora_inicio\nprint(f\"A duração do jogo é de {duracao} horas.\")\n\"\"\"\nescreva um algoritmo para ler a hora  de inicio e a hora de fim de um jogo de xadrez considere apenas horas inteiras \nsem minutos e calcule a duracao do jogo em horas sabendo que o tempo maximo de duracao do jhogo e 24 horas\ne que o jogo pode inicar em um dia e terminar no dia seguinte",
+        "detail": "modulo-1.exer39",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "modulo-1.exer40",
+        "description": "modulo-1.exer40",
+        "peekOfCode": "nome = ['','','','','']\nfor x in range (5):\n    nome[x] = (input('Digite o seu nome '))\nfor z in range (5):\n    print('Nome :',nome[z],'na posiçao',z)",
+        "detail": "modulo-1.exer40",
+        "documentation": {}
+    },
+    {
+        "label": "notas",
+        "kind": 5,
+        "importPath": "modulo-1.exer41",
+        "description": "modulo-1.exer41",
+        "peekOfCode": "notas = [0,0,0,0,0]\ns = 0\ncont =0\nfor x in range(5):\n    notas[x] = float(input(' Digite a nota do aluno : '))\nfor z in range(5):\n    s = s + notas[z]\nmedia = s /5\nfor y in range(5):\n    if notas[y] > media:",
+        "detail": "modulo-1.exer41",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "modulo-1.exer41",
+        "description": "modulo-1.exer41",
+        "peekOfCode": "s = 0\ncont =0\nfor x in range(5):\n    notas[x] = float(input(' Digite a nota do aluno : '))\nfor z in range(5):\n    s = s + notas[z]\nmedia = s /5\nfor y in range(5):\n    if notas[y] > media:\n        cont = cont +1",
+        "detail": "modulo-1.exer41",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "modulo-1.exer41",
+        "description": "modulo-1.exer41",
+        "peekOfCode": "media = s /5\nfor y in range(5):\n    if notas[y] > media:\n        cont = cont +1\nprint(' A media da sala foi',media,'e',cont,'alunos foram aprovados')",
+        "detail": "modulo-1.exer41",
+        "documentation": {}
+    },
+    {
+        "label": "vetorA",
+        "kind": 5,
+        "importPath": "modulo-1.exer42",
+        "description": "modulo-1.exer42",
+        "peekOfCode": "vetorA = [0,0,0,0,0,0,0,0,0,0]\nvetorB = [0,0,0,0,0,0,0,0,0,0]\nfor x in range(0,10):\n    vetorA[x] = int(input(\" Digite um numero \"))\nX = int(input(\" Digite o multiplicador \"))\nfor z in range(10):\n    vetorB[z] = vetorA[z]* X\n    print(vetorA)\n    print(X) \n    print(vetorB)",
+        "detail": "modulo-1.exer42",
+        "documentation": {}
+    },
+    {
+        "label": "vetorB",
+        "kind": 5,
+        "importPath": "modulo-1.exer42",
+        "description": "modulo-1.exer42",
+        "peekOfCode": "vetorB = [0,0,0,0,0,0,0,0,0,0]\nfor x in range(0,10):\n    vetorA[x] = int(input(\" Digite um numero \"))\nX = int(input(\" Digite o multiplicador \"))\nfor z in range(10):\n    vetorB[z] = vetorA[z]* X\n    print(vetorA)\n    print(X) \n    print(vetorB)",
+        "detail": "modulo-1.exer42",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "modulo-1.exer42",
+        "description": "modulo-1.exer42",
+        "peekOfCode": "X = int(input(\" Digite o multiplicador \"))\nfor z in range(10):\n    vetorB[z] = vetorA[z]* X\n    print(vetorA)\n    print(X) \n    print(vetorB)",
+        "detail": "modulo-1.exer42",
+        "documentation": {}
+    },
+    {
+        "label": "vetor1",
+        "kind": 5,
+        "importPath": "modulo-1.exer43",
+        "description": "modulo-1.exer43",
+        "peekOfCode": "vetor1 = [0,0,0,0,0]\nvetor2=[0,0,0,0,0]\nfor x in range(5):\n    vetor1[x] = int(input('Digite um numero '))\nfor z in range(4,-1,-1):\n    print(vetor1[z],end=\" \")",
+        "detail": "modulo-1.exer43",
+        "documentation": {}
+    },
+    {
+        "label": "senha",
+        "kind": 5,
+        "importPath": "modulo-1.exer44",
+        "description": "modulo-1.exer44",
+        "peekOfCode": "senha = [0,0,0,0,0]\nfor x in range(5):\n    usuario[x] = (input('Digite o seu nome '))\n    senha[x] = (input('Digite a sua senha '))\nfor i in range(5):\n    print('Nome :',usuario[i],'na posiçao',i)\n    print('Senha :',senha[i],'na posiçao',i) \n    if usuario == usuario and senha == senha :\n        print('Login efetuado com sucesso')\n        print('-------------------------')",
+        "detail": "modulo-1.exer44",
+        "documentation": {}
+    },
+    {
+        "label": "piramide",
+        "kind": 2,
+        "importPath": "modulo2.exercicio02",
+        "description": "modulo2.exercicio02",
+        "peekOfCode": "def piramide(n):\n    for x in range(1,n+1):\n        for j in range(1,x+1):\n            print(j, end=\" \")\n    print(n)\ndef vogais(texto):\n    cont = 0\n    for x in texto:\n        if x in \"aeiouAEIOU\":\n            cont = cont + 1",
+        "detail": "modulo2.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "vogais",
+        "kind": 2,
+        "importPath": "modulo2.exercicio02",
+        "description": "modulo2.exercicio02",
+        "peekOfCode": "def vogais(texto):\n    cont = 0\n    for x in texto:\n        if x in \"aeiouAEIOU\":\n            cont = cont + 1\n    print(cont)\ntexto = \"o rato roeu a roupa do rei de roma\"\nvogais(texto)\ndef sistema():\n    opcao = -5",
+        "detail": "modulo2.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "sistema",
+        "kind": 2,
+        "importPath": "modulo2.exercicio02",
+        "description": "modulo2.exercicio02",
+        "peekOfCode": "def sistema():\n    opcao = -5\n    nomes = [\"\",\"\",\"\",\"\",\"\"]\n    senhas = [5]\n    cont = 0\n    while opcao != 3:\n        opcao =int(input(\"1 para cadastrar\\n\"\n                        \"2 para login\\n\"\n                        \"3 para sair\\n\"\n                        \"Escolha sua opção: \"))",
+        "detail": "modulo2.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "estoque",
+        "kind": 2,
+        "importPath": "modulo2.exercicio02",
+        "description": "modulo2.exercicio02",
+        "peekOfCode": "def estoque( quantidade, preco):\n    total= preco * quantidade\n    return total\ndef somar(n1,n2):\n    return n1+n2\ndef subtrair(n1,n2):\n    n1-=n2\ndef multiplicar(n1,n2):\n    return n1*n2\ndef dividir(n1,n2):",
+        "detail": "modulo2.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "somar",
+        "kind": 2,
+        "importPath": "modulo2.exercicio02",
+        "description": "modulo2.exercicio02",
+        "peekOfCode": "def somar(n1,n2):\n    return n1+n2\ndef subtrair(n1,n2):\n    n1-=n2\ndef multiplicar(n1,n2):\n    return n1*n2\ndef dividir(n1,n2):\n    return n1/n2\ndef resto(n1,n2):\n    return n1%n2",
+        "detail": "modulo2.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "subtrair",
+        "kind": 2,
+        "importPath": "modulo2.exercicio02",
+        "description": "modulo2.exercicio02",
+        "peekOfCode": "def subtrair(n1,n2):\n    n1-=n2\ndef multiplicar(n1,n2):\n    return n1*n2\ndef dividir(n1,n2):\n    return n1/n2\ndef resto(n1,n2):\n    return n1%n2",
+        "detail": "modulo2.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicar",
+        "kind": 2,
+        "importPath": "modulo2.exercicio02",
+        "description": "modulo2.exercicio02",
+        "peekOfCode": "def multiplicar(n1,n2):\n    return n1*n2\ndef dividir(n1,n2):\n    return n1/n2\ndef resto(n1,n2):\n    return n1%n2",
+        "detail": "modulo2.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "dividir",
+        "kind": 2,
+        "importPath": "modulo2.exercicio02",
+        "description": "modulo2.exercicio02",
+        "peekOfCode": "def dividir(n1,n2):\n    return n1/n2\ndef resto(n1,n2):\n    return n1%n2",
+        "detail": "modulo2.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "resto",
+        "kind": 2,
+        "importPath": "modulo2.exercicio02",
+        "description": "modulo2.exercicio02",
+        "peekOfCode": "def resto(n1,n2):\n    return n1%n2",
+        "detail": "modulo2.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "texto",
+        "kind": 5,
+        "importPath": "modulo2.exercicio02",
+        "description": "modulo2.exercicio02",
+        "peekOfCode": "texto = \"o rato roeu a roupa do rei de roma\"\nvogais(texto)\ndef sistema():\n    opcao = -5\n    nomes = [\"\",\"\",\"\",\"\",\"\"]\n    senhas = [5]\n    cont = 0\n    while opcao != 3:\n        opcao =int(input(\"1 para cadastrar\\n\"\n                        \"2 para login\\n\"",
+        "detail": "modulo2.exercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "kind": 5,
+        "importPath": "modulo2.main",
+        "description": "modulo2.main",
+        "peekOfCode": "h = 'leonardo'\nvogais(h)",
+        "detail": "modulo2.main",
+        "documentation": {}
+    },
+    {
+        "label": "numero1",
+        "kind": 5,
+        "importPath": "revisao.aula1",
+        "description": "revisao.aula1",
+        "peekOfCode": "numero1 = float(input(\"Digite o primeiro numero: \"))\nnumero2 = float(input(\"Digite o primeiro numero: \"))\nmedia = (numero1 + numero2) / 2\nif media >=7:\n    print(f\"Aprovado com media {media}\")\nelif media >=4:\n    print(f\"Recuperacao com media {media}\")\nelse:       \n    print(f\"Reprovado com media {media}\")",
+        "detail": "revisao.aula1",
+        "documentation": {}
+    },
+    {
+        "label": "numero2",
+        "kind": 5,
+        "importPath": "revisao.aula1",
+        "description": "revisao.aula1",
+        "peekOfCode": "numero2 = float(input(\"Digite o primeiro numero: \"))\nmedia = (numero1 + numero2) / 2\nif media >=7:\n    print(f\"Aprovado com media {media}\")\nelif media >=4:\n    print(f\"Recuperacao com media {media}\")\nelse:       \n    print(f\"Reprovado com media {media}\")",
+        "detail": "revisao.aula1",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "revisao.aula1",
+        "description": "revisao.aula1",
+        "peekOfCode": "media = (numero1 + numero2) / 2\nif media >=7:\n    print(f\"Aprovado com media {media}\")\nelif media >=4:\n    print(f\"Recuperacao com media {media}\")\nelse:       \n    print(f\"Reprovado com media {media}\")",
+        "detail": "revisao.aula1",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 5,
+        "importPath": "revisao.aula10",
+        "description": "revisao.aula10",
+        "peekOfCode": "C = ((F - 32)/9)*5 \nObservação: Para testar se a sua resposta \nestá correta saiba que 100 ⍛C = 212 F\"\"\"\nF = float(input('Digite o valor  de Fahrenheit'))\nC = ((F - 32)/9)*5\nprint(\"O valor  em graus Celsius\",C)",
+        "detail": "revisao.aula10",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "kind": 5,
+        "importPath": "revisao.aula10",
+        "description": "revisao.aula10",
+        "peekOfCode": "F = float(input('Digite o valor  de Fahrenheit'))\nC = ((F - 32)/9)*5\nprint(\"O valor  em graus Celsius\",C)",
+        "detail": "revisao.aula10",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 5,
+        "importPath": "revisao.aula10",
+        "description": "revisao.aula10",
+        "peekOfCode": "C = ((F - 32)/9)*5\nprint(\"O valor  em graus Celsius\",C)",
+        "detail": "revisao.aula10",
+        "documentation": {}
+    },
+    {
+        "label": "macas",
+        "kind": 5,
+        "importPath": "revisao.aula11",
+        "description": "revisao.aula11",
+        "peekOfCode": "macas = int(input(\"Quantas maças voce deseja\"))\nvalor = macas \nif macas < 12:\n    valor = macas * 1.30\nprint(f\" Voce comprou {macas} maças. Pague R$ {valor}\")",
+        "detail": "revisao.aula11",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "revisao.aula11",
+        "description": "revisao.aula11",
+        "peekOfCode": "valor = macas \nif macas < 12:\n    valor = macas * 1.30\nprint(f\" Voce comprou {macas} maças. Pague R$ {valor}\")",
+        "detail": "revisao.aula11",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "revisao.aula2",
+        "description": "revisao.aula2",
+        "peekOfCode": "numero = float(input('digite um numero'))\nwhile numero == 0:\n    numero = float(input('digite novamente'))\nif numero >0:\n    print('numero positivo')\nelse:\n    print('nuemero negativo')",
+        "detail": "revisao.aula2",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "revisao.aula3",
+        "description": "revisao.aula3",
+        "peekOfCode": "idade = int(input(' digite a sua idade '))\nanoAtual = 2024\nniver = input('Ja fez a aniversario ?')\nif niver == 's' or niver == \"S\":\n    anoAniversario = anoAtual - idade\n    print(anoAniversario)\nelse:\n    anoAniversario = anoAtual - idade -1   \n    print(anoAniversario)",
+        "detail": "revisao.aula3",
+        "documentation": {}
+    },
+    {
+        "label": "anoAtual",
+        "kind": 5,
+        "importPath": "revisao.aula3",
+        "description": "revisao.aula3",
+        "peekOfCode": "anoAtual = 2024\nniver = input('Ja fez a aniversario ?')\nif niver == 's' or niver == \"S\":\n    anoAniversario = anoAtual - idade\n    print(anoAniversario)\nelse:\n    anoAniversario = anoAtual - idade -1   \n    print(anoAniversario)",
+        "detail": "revisao.aula3",
+        "documentation": {}
+    },
+    {
+        "label": "niver",
+        "kind": 5,
+        "importPath": "revisao.aula3",
+        "description": "revisao.aula3",
+        "peekOfCode": "niver = input('Ja fez a aniversario ?')\nif niver == 's' or niver == \"S\":\n    anoAniversario = anoAtual - idade\n    print(anoAniversario)\nelse:\n    anoAniversario = anoAtual - idade -1   \n    print(anoAniversario)",
+        "detail": "revisao.aula3",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": "revisao.aula4",
+        "description": "revisao.aula4",
+        "peekOfCode": "resposta = 's'\nwhile resposta =='s' or resposta =='S':\n  n1 = int(input(\" Digite o primeiro nuemero \"))\n  n2 = int(input(\" Digite o segundo nuemero \"))\n  n3 = int(input(\" Digite 3 terceiro nuemero \"))\n  if n1 > n2 and n1 > n3:\n    print(f\"{n1} é o maior\")\n  elif n2 >n1 and n2>n3:\n    print(f\"{n2} é o maior\")\n  else:",
+        "detail": "revisao.aula4",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "revisao.aula5",
+        "description": "revisao.aula5",
+        "peekOfCode": "n1 = int(input(\" Digite o primeiro nuemero \"))\nif n1 % 2 == 0:\n    print(f\"{n1}O numero é par\")\nelse:\n    print(f\"{n1}O numero é impar\")",
+        "detail": "revisao.aula5",
+        "documentation": {}
+    },
+    {
+        "label": "diasVividos",
+        "kind": 5,
+        "importPath": "revisao.aula7",
+        "description": "revisao.aula7",
+        "peekOfCode": "diasVividos = anos*365+meses*30+dias\nprint(diasVividos)",
+        "detail": "revisao.aula7",
+        "documentation": {}
+    },
+    {
+        "label": "nulo",
+        "kind": 5,
+        "importPath": "revisao.aula8",
+        "description": "revisao.aula8",
+        "peekOfCode": "nulo = 0\nbrancos = 0\nfor x in range  (eleitores):\n    voto = int(input('Vote:[1]-Maria , [2]-Jose, [3]-Lampiao, [4]-Nulo'))\n    if voto ==1  or voto == 2 or voto == 3:\n        validos = validos + 1\n    elif voto == 4:\n          nulo = nulo + 1\n    else:\n         brancos = brancos + 1 ",
+        "detail": "revisao.aula8",
+        "documentation": {}
+    },
+    {
+        "label": "brancos",
+        "kind": 5,
+        "importPath": "revisao.aula8",
+        "description": "revisao.aula8",
+        "peekOfCode": "brancos = 0\nfor x in range  (eleitores):\n    voto = int(input('Vote:[1]-Maria , [2]-Jose, [3]-Lampiao, [4]-Nulo'))\n    if voto ==1  or voto == 2 or voto == 3:\n        validos = validos + 1\n    elif voto == 4:\n          nulo = nulo + 1\n    else:\n         brancos = brancos + 1 \nporcentagemV = (validos/eleitores)*100 ",
+        "detail": "revisao.aula8",
+        "documentation": {}
+    },
+    {
+        "label": "porcentagemV",
+        "kind": 5,
+        "importPath": "revisao.aula8",
+        "description": "revisao.aula8",
+        "peekOfCode": "porcentagemV = (validos/eleitores)*100 \nporcentagemN = (nulo/eleitores)*100   \nporcentagemB = (brancos/eleitores)*100   \nprint('Porcentagem de votos validos',porcentagemV)\nprint('Porcentagem de votos nulos',porcentagemN)\nprint('Porcentagem de votos brancos',porcentagemB)",
+        "detail": "revisao.aula8",
+        "documentation": {}
+    },
+    {
+        "label": "porcentagemN",
+        "kind": 5,
+        "importPath": "revisao.aula8",
+        "description": "revisao.aula8",
+        "peekOfCode": "porcentagemN = (nulo/eleitores)*100   \nporcentagemB = (brancos/eleitores)*100   \nprint('Porcentagem de votos validos',porcentagemV)\nprint('Porcentagem de votos nulos',porcentagemN)\nprint('Porcentagem de votos brancos',porcentagemB)",
+        "detail": "revisao.aula8",
+        "documentation": {}
+    },
+    {
+        "label": "porcentagemB",
+        "kind": 5,
+        "importPath": "revisao.aula8",
+        "description": "revisao.aula8",
+        "peekOfCode": "porcentagemB = (brancos/eleitores)*100   \nprint('Porcentagem de votos validos',porcentagemV)\nprint('Porcentagem de votos nulos',porcentagemN)\nprint('Porcentagem de votos brancos',porcentagemB)",
+        "detail": "revisao.aula8",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "revisao.aula9",
+        "description": "revisao.aula9",
+        "peekOfCode": "base = float(input('digite o valor base'))\naltura = float(input('digite a  altura'))\nretangulo = base*altura\ntriangulo = (base*altura)/2\nprint(f\" A area do retangulo {retangulo} e triangulo {triangulo}\")",
+        "detail": "revisao.aula9",
+        "documentation": {}
+    },
+    {
+        "label": "altura",
+        "kind": 5,
+        "importPath": "revisao.aula9",
+        "description": "revisao.aula9",
+        "peekOfCode": "altura = float(input('digite a  altura'))\nretangulo = base*altura\ntriangulo = (base*altura)/2\nprint(f\" A area do retangulo {retangulo} e triangulo {triangulo}\")",
+        "detail": "revisao.aula9",
+        "documentation": {}
+    },
+    {
+        "label": "retangulo",
+        "kind": 5,
+        "importPath": "revisao.aula9",
+        "description": "revisao.aula9",
+        "peekOfCode": "retangulo = base*altura\ntriangulo = (base*altura)/2\nprint(f\" A area do retangulo {retangulo} e triangulo {triangulo}\")",
+        "detail": "revisao.aula9",
+        "documentation": {}
+    },
+    {
+        "label": "triangulo",
+        "kind": 5,
+        "importPath": "revisao.aula9",
+        "description": "revisao.aula9",
+        "peekOfCode": "triangulo = (base*altura)/2\nprint(f\" A area do retangulo {retangulo} e triangulo {triangulo}\")",
+        "detail": "revisao.aula9",
+        "documentation": {}
+    }
+]
