@@ -1,66 +1,10 @@
 [
     {
-        "label": "somar",
-        "importPath": "exercicio02",
-        "description": "exercicio02",
+        "label": "*",
+        "importPath": "classes",
+        "description": "classes",
         "isExtraImport": true,
-        "detail": "exercicio02",
-        "documentation": {}
-    },
-    {
-        "label": "dividir",
-        "importPath": "exercicio02",
-        "description": "exercicio02",
-        "isExtraImport": true,
-        "detail": "exercicio02",
-        "documentation": {}
-    },
-    {
-        "label": "resto",
-        "importPath": "exercicio02",
-        "description": "exercicio02",
-        "isExtraImport": true,
-        "detail": "exercicio02",
-        "documentation": {}
-    },
-    {
-        "label": "subtrair",
-        "importPath": "exercicio02",
-        "description": "exercicio02",
-        "isExtraImport": true,
-        "detail": "exercicio02",
-        "documentation": {}
-    },
-    {
-        "label": "multiplicar",
-        "importPath": "exercicio02",
-        "description": "exercicio02",
-        "isExtraImport": true,
-        "detail": "exercicio02",
-        "documentation": {}
-    },
-    {
-        "label": "piramide",
-        "importPath": "exercicio02",
-        "description": "exercicio02",
-        "isExtraImport": true,
-        "detail": "exercicio02",
-        "documentation": {}
-    },
-    {
-        "label": "vogais",
-        "importPath": "exercicio02",
-        "description": "exercicio02",
-        "isExtraImport": true,
-        "detail": "exercicio02",
-        "documentation": {}
-    },
-    {
-        "label": "estoque",
-        "importPath": "exercicio02",
-        "description": "exercicio02",
-        "isExtraImport": true,
-        "detail": "exercicio02",
+        "detail": "classes",
         "documentation": {}
     },
     {
@@ -712,6 +656,15 @@
         "documentation": {}
     },
     {
+        "label": "Pessoa",
+        "kind": 6,
+        "importPath": "modulo2.classes",
+        "description": "modulo2.classes",
+        "peekOfCode": "class Pessoa():\n  def __init__(self, nomeAluno, pesoAluno, idadeAluno, comendo=False,dormindo=False,falando =False):\n   self.nome=nomeAluno\n   self.peso=pesoAluno\n   self.idade=idadeAluno\n   self.comendo = comendo\n   self.dormindo =dormindo\n   self.falando = falando\n  def comer(self,alimento):\n    print(f'{self.nome} foi comer {alimento}')",
+        "detail": "modulo2.classes",
+        "documentation": {}
+    },
+    {
         "label": "piramide",
         "kind": 2,
         "importPath": "modulo2.exercicio02",
@@ -802,12 +755,138 @@
         "documentation": {}
     },
     {
-        "label": "h",
+        "label": "cadastro",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def cadastro():\n    nomes = [\"\", \"\", \"\", \"\", \"\"]\n    senhas = [\"\", \"\", \"\", \"\", \"\"]\n    for x in range(5):\n      nomes[x] = input('Digite o nome do usuário: ')\n      senhas[x] = input('Digite a senha: ')\ndef imprime_nome(nome):\n   print(f\"Nome:{nome}\")\n   imprime_nome(\"leonardo\")\n   imprime_nome(\"maria\")",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "imprime_nome",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def imprime_nome(nome):\n   print(f\"Nome:{nome}\")\n   imprime_nome(\"leonardo\")\n   imprime_nome(\"maria\")\n   imprime_nome(\"jose\")\n   nome = input(\"Digite um nome\")\n   imprime_nome(nome)\ndef somar(*numeros):\n    soma=0\n    for x in range(len(numeros)):",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "somar",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def somar(*numeros):\n    soma=0\n    for x in range(len(numeros)):\n      soma +=numeros[x]\n    print(soma)\ndef processar_texto(texto):\n    cont=0\n    for x in range(len(texto)):\n      if texto[x] != \".,!\":\n        cont=cont+1",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "processar_texto",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def processar_texto(texto):\n    cont=0\n    for x in range(len(texto)):\n      if texto[x] != \".,!\":\n        cont=cont+1\n    for z in range(len(texto)):\n       if texto[z]== \".,!\":\n        cont = cont-1\n    return texto\ndef tratarTexto(texto):",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "tratarTexto",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def tratarTexto(texto):\n    cont = 0\n    for x in range(len(texto)-1,-1,-1):\n        print(texto[x],end=\"\")\n        if texto[x]!= \" \" and texto[x] != \".\" and texto[x] != \",\":\n            cont = cont + 1\n    print(f\"\\n{cont}\")\n    print(texto[::-1])\n\"\"\"faça uma funcao que recebe uma lista como\n argumento e crie uma nova lista , somente com numeros unicos",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def lista(*nova):\n    nova_lista =[]\n    for x in range(len(nova)):\n      if nova[x]!= x:\n          nova_lista.append(nova[x])\n    print(nova_lista)\ndef duplicados(*lista):\n    nova = set(lista)\n    print(f\"Lista Recebida{lista}\")\n    print(f\"A Lista sem repeticao{nova}\")",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "duplicados",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def duplicados(*lista):\n    nova = set(lista)\n    print(f\"Lista Recebida{lista}\")\n    print(f\"A Lista sem repeticao{nova}\")\ndef duplicados2(*lista):\n    listaNova=[]\n    for x in lista:\n        if lista[x] not in  listaNova:\n            listaNova.append(x)\n    print(listaNova)",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "duplicados2",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def duplicados2(*lista):\n    listaNova=[]\n    for x in lista:\n        if lista[x] not in  listaNova:\n            listaNova.append(x)\n    print(listaNova)\ndef numeroPrimo(num):\n  num=0\n  for x in range(2,num-1):\n        if num/num == 0:",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "numeroPrimo",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def numeroPrimo(num):\n  num=0\n  for x in range(2,num-1):\n        if num/num == 0:\n           print(num, 'não é primo')\n        else:\n           print(num, 'é primo')\ndef test_primo(n):\n    if (n ==1):\n        return n,\"Nao e primo\"",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "test_primo",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def test_primo(n):\n    if (n ==1):\n        return n,\"Nao e primo\"\n    elif(n==2):\n        return n,\"E primo\"\n    else:\n        for x in range(2,n):\n            if(n% x == 0):\n                return n , \"Nao e primo\"\n        return n, \"E primo\"",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "piramide",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def piramide(n):\n    for x in range(1, n + 1):\n        for j in range(1, x + 1):\n            print(x , end=\" \")\n        print()\ndef piramide2(n):\n    for x in range(1, n+1):\n        for j in range(1, x + 1):\n            print(j, end=\" \")\n        print()",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "piramide2",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def piramide2(n):\n    for x in range(1, n+1):\n        for j in range(1, x + 1):\n            print(j, end=\" \")\n        print()\ndef vogais(texto):\n   cont = 0\n   for x in range(len(texto)):\n       if texto[x] == \"a\" or  texto[x] ==\"e\" or texto[x] ==\"i\" or texto[x] == \"o\" or texto[x] == \"u\":\n           cont = cont + 1",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "vogais",
+        "kind": 2,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "def vogais(texto):\n   cont = 0\n   for x in range(len(texto)):\n       if texto[x] == \"a\" or  texto[x] ==\"e\" or texto[x] ==\"i\" or texto[x] == \"o\" or texto[x] == \"u\":\n           cont = cont + 1\n       print(cont)\ntexto = \"o rato roeu a roupa do rei de roma\"\nvogais(texto)",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"n",
         "kind": 5,
-        "importPath": "modulo2.main",
-        "description": "modulo2.main",
-        "peekOfCode": "h = 'leonardo'\nvogais(h)",
-        "detail": "modulo2.main",
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "\"\"\"n = int(input(\"digite um numero\"))\"\"\"\ndef piramide(n):\n    for x in range(1, n + 1):\n        for j in range(1, x + 1):\n            print(x , end=\" \")\n        print()\ndef piramide2(n):\n    for x in range(1, n+1):\n        for j in range(1, x + 1):\n            print(j, end=\" \")",
+        "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "texto",
+        "kind": 5,
+        "importPath": "modulo2.funcao",
+        "description": "modulo2.funcao",
+        "peekOfCode": "texto = \"o rato roeu a roupa do rei de roma\"\nvogais(texto)",
+        "detail": "modulo2.funcao",
         "documentation": {}
     },
     {

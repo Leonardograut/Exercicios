@@ -11,17 +11,24 @@ class Pessoa():
   def comer(self,alimento):
     print(f'{self.nome} foi comer {alimento}')
     self.comendo=True
-
-
+   
+  def andar(self):
+      print(f'{self.nome} andou')
+      self.comendo=True
 
   def dormir(self):
-      print(f'{self.nome}foi dormir ')
-      self.dormindo=False
+      if self.comendo:
+          print(f"{self.nome} nao pode dormir por que ele esta comendo")
+      else:
+            print(f'{self.nome} foi dormir')
+            self.dormindo = True
+            self.falando = False
 
   def falar(self):
-      self.falando = False
+      self.falando =True
       if self.comendo == True:
-          print("ele nao pode falar por que ele esta comendo")
+          print(f"{self.nome} nao pode falar por que ele esta comendo ")
+   
 
   def parardeComer(self):
       print(f'{self.nome}parou de comer')

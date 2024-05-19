@@ -43,10 +43,10 @@ def tratarTexto(texto):
     print(texto[::-1])
 
 
-faça uma funcao que recebe uma lista como
+"""faça uma funcao que recebe uma lista como
  argumento e crie uma nova lista , somente com numeros unicos
- exemplo
-  a=[1,2,2,3,4,3,4,5,6,7,6,8,7,10]
+ exemplo   a=[1,2,2,3,4,3,4,5,6,7,6,8,7,10"""
+
 
 
 def lista(*nova):
