@@ -85,6 +85,40 @@ class Conta():
 
 
 
+class Forma():
+    def __init__(self):
+        self.area = 0
+        self.perimetro = 0
+
+
+class Retangulo(Forma):
+    def __init__(self):
+       super().__init__()
+    
+    def calcularArea(self,base,altura):
+        self.area = base * altura
+        print(f"A Area é {self.area}")
+
+
+    def calcularPerimetro(self,base,altura):
+        self.perimetro = 2*(base+altura)
+        print(f"O Perimetro é {self.perimetro}")
+
+
+
+
+class Triangulo(Forma):
+    def __init__(self, area, perimetro):
+        super().__init__(area,perimetro)
+
+    def calcularArea(self,base,altura):
+        self.area = base * altura
+        print(f"A Area é {self.area}")
+
+
+    def calcularPerimetro(self,base,altura):
+        self.perimetro = 2*(base+altura)
+        print(f"O Perimetro é {self.perimetro}")
 
 
 
