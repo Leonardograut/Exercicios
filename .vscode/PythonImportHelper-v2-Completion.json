@@ -665,6 +665,60 @@
         "documentation": {}
     },
     {
+        "label": "Conta",
+        "kind": 6,
+        "importPath": "modulo2.classes",
+        "description": "modulo2.classes",
+        "peekOfCode": "class Conta():\n    def __init__(self, numero_conta, nome_cliente, tipo_conta):\n        self.numero_conta = numero_conta\n        self.nome_cliente = nome_cliente\n        self.tipo_conta = tipo_conta\n        self.saldo = 0\n        self.status = False\n    def depositar(self,valor):\n     self.saldo +=valor\n     print(f\"Depósito de {valor:.2f} realizado com sucesso! Saldo atual:{self.saldo}\")",
+        "detail": "modulo2.classes",
+        "documentation": {}
+    },
+    {
+        "label": "Forma",
+        "kind": 6,
+        "importPath": "modulo2.classes",
+        "description": "modulo2.classes",
+        "peekOfCode": "class Forma():\n    def __init__(self):\n        self.area = 0\n        self.perimetro = 0\nclass Retangulo(Forma):\n    def __init__(self):\n       super().__init__()\n    def calcularArea(self,base,altura):\n        self.area = base * altura\n        print(f\"A Area é {self.area}\")",
+        "detail": "modulo2.classes",
+        "documentation": {}
+    },
+    {
+        "label": "Retangulo",
+        "kind": 6,
+        "importPath": "modulo2.classes",
+        "description": "modulo2.classes",
+        "peekOfCode": "class Retangulo(Forma):\n    def __init__(self):\n       super().__init__()\n    def calcularArea(self,base,altura):\n        self.area = base * altura\n        print(f\"A Area é {self.area}\")\n    def calcularPerimetro(self,base,altura):\n        self.perimetro = 2*(base+altura)\n        print(f\"O Perimetro é {self.perimetro}\")\nclass Triangulo(Forma):",
+        "detail": "modulo2.classes",
+        "documentation": {}
+    },
+    {
+        "label": "Triangulo",
+        "kind": 6,
+        "importPath": "modulo2.classes",
+        "description": "modulo2.classes",
+        "peekOfCode": "class Triangulo(Forma):\n    def __init__(self, area, perimetro):\n        super().__init__(area,perimetro)\n    def calcularArea(self,base,altura):\n        self.area = base * altura\n        print(f\"A Area é {self.area}\")\n    def calcularPerimetro(self,base,altura):\n        self.perimetro = 2*(base+altura)\n        print(f\"O Perimetro é {self.perimetro}\")\nclass Jogador:",
+        "detail": "modulo2.classes",
+        "documentation": {}
+    },
+    {
+        "label": "Jogador",
+        "kind": 6,
+        "importPath": "modulo2.classes",
+        "description": "modulo2.classes",
+        "peekOfCode": "class Jogador:\n    def __init__(self, nome):\n        self.nome = nome\n        self.escolha = None\n    def obter_escolha(self):\n        print(f\"{self.nome}, escolha uma opção:\")\n        print(\"1. Pedra\")\n        print(\"2. Papel\")\n        print(\"3. Tesoura\")\n        self.escolha = int(input(\"Digite a opção desejada (ou 0 para sair): \"))",
+        "detail": "modulo2.classes",
+        "documentation": {}
+    },
+    {
+        "label": "JogoJokenpo",
+        "kind": 6,
+        "importPath": "modulo2.classes",
+        "description": "modulo2.classes",
+        "peekOfCode": "class JogoJokenpo:\n    def __init__(self):\n        self.jogador = Jogador(\"Jogador\")\n        self.computador = Jogador(\"Computador\")\n    def determinar_vencedor(self):\n        if (self.jogador.escolha == 1 and self.computador.escolha == 3) or \\\n           (self.jogador.escolha == 2 and self.computador.escolha == 1) or \\\n           (self.jogador.escolha == 3 and self.computador.escolha == 2):\n            print(\"Jogador Venceu!\")\n        elif self.jogador.escolha == self.computador.escolha:",
+        "detail": "modulo2.classes",
+        "documentation": {}
+    },
+    {
         "label": "piramide",
         "kind": 2,
         "importPath": "modulo2.exercicio02",
@@ -887,6 +941,33 @@
         "description": "modulo2.funcao",
         "peekOfCode": "texto = \"o rato roeu a roupa do rei de roma\"\nvogais(texto)",
         "detail": "modulo2.funcao",
+        "documentation": {}
+    },
+    {
+        "label": "p2",
+        "kind": 5,
+        "importPath": "modulo2.main",
+        "description": "modulo2.main",
+        "peekOfCode": "p2 = Conta(2222,'Leonardo','Corrente')\np2.ativarConta()\np2.ativarConta()\np2.depositar(222)\np2.sacar(200)\np3 = Retangulo()\np3.calcularArea(10,10)\np3.calcularPerimetro(10,5)\njogo = JogoJokenpo()\njogo.jogar()",
+        "detail": "modulo2.main",
+        "documentation": {}
+    },
+    {
+        "label": "p3",
+        "kind": 5,
+        "importPath": "modulo2.main",
+        "description": "modulo2.main",
+        "peekOfCode": "p3 = Retangulo()\np3.calcularArea(10,10)\np3.calcularPerimetro(10,5)\njogo = JogoJokenpo()\njogo.jogar()",
+        "detail": "modulo2.main",
+        "documentation": {}
+    },
+    {
+        "label": "jogo",
+        "kind": 5,
+        "importPath": "modulo2.main",
+        "description": "modulo2.main",
+        "peekOfCode": "jogo = JogoJokenpo()\njogo.jogar()",
+        "detail": "modulo2.main",
         "documentation": {}
     },
     {

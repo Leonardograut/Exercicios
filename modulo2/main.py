@@ -19,3 +19,5 @@ p3.calcularArea(10,10)
 p3.calcularPerimetro(10,5)
 
 
+jogo = JogoJokenpo()
+jogo.jogar()

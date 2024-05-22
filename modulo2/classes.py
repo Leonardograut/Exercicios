@@ -122,6 +122,64 @@ class Triangulo(Forma):
 
 
 
+class Jogador:
+    def __init__(self, nome):
+        self.nome = nome
+        self.escolha = None
+
+    def obter_escolha(self):
+        print(f"{self.nome}, escolha uma opção:")
+        print("1. Pedra")
+        print("2. Papel")
+        print("3. Tesoura")
+        self.escolha = int(input("Digite a opção desejada (ou 0 para sair): "))
+        if self.escolha not in [0, 1, 2, 3]:
+            print("Opção inválida, tente novamente.")
+            self.obter_escolha()
+
+    def exibir_escolha(self):
+        if self.escolha == 1:
+            print(f"{self.nome} escolheu Pedra")
+        elif self.escolha == 2:
+            print(f"{self.nome} escolheu Papel")
+        elif self.escolha == 3:
+            print(f"{self.nome} escolheu Tesoura")
+
+
+class JogoJokenpo:
+    def __init__(self):
+        self.jogador = Jogador("Jogador")
+        self.computador = Jogador("Computador")
+
+    def determinar_vencedor(self):
+        if (self.jogador.escolha == 1 and self.computador.escolha == 3) or \
+           (self.jogador.escolha == 2 and self.computador.escolha == 1) or \
+           (self.jogador.escolha == 3 and self.computador.escolha == 2):
+            print("Jogador Venceu!")
+        elif self.jogador.escolha == self.computador.escolha:
+            print("Empate!")
+        else:
+            print("Computador Venceu!")
+
+    def jogar(self):
+       while True:
+        self.jogador.obter_escolha()
+        if self.jogador.escolha == 0:
+            print("Saindo do jogo.")
+            return
+
+        self.jogador.exibir_escolha()
+
+        self.computador.obter_escolha()
+        if self.computador.escolha == 0:
+            print("Saindo do jogo.")
+            return
+
+        self.computador.exibir_escolha()
+        self.determinar_vencedor()
+        print("")
+
+
 
 
 
