@@ -181,5 +181,19 @@ class JogoJokenpo:
 
 
 
+class Ingresso():
+    def __init__(self,valor_real):
+        self.valor_real = valor_real
+
+    def imprimeValor(self):
+        print(f'Valor do ingresso {self.valor_real}')
+
+class Vip(Ingresso):
+    def __init__(self,valor_real):
+        super().__init__(valor_real)
+
+    def valor_total(self):
+
+        return self.valor_real * 1.5
 
 
