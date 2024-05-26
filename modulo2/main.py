@@ -23,3 +23,11 @@ jogo = JogoJokenpo()
 jogo.jogar()
 
 
+
+p4 = Ingresso(100)
+p4.imprimeValor()
+
+p5 = Vip(50)
+p5.valor_total()
+print(f"Valor total do ingresso VIP: R$ {p5.valor_total():.2f}")
+

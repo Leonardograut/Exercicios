@@ -719,24 +719,6 @@
         "documentation": {}
     },
     {
-        "label": "Ingresso",
-        "kind": 6,
-        "importPath": "modulo2.classes",
-        "description": "modulo2.classes",
-        "peekOfCode": "class Ingresso():\n    def __init__(self,valor_real):\n        self.valor_real = valor_real\n    def imprimeValor(self):\n        print(f'Valor do ingresso {self.valor_real}')\nclass Vip(Ingresso):\n    def __init__(self,valor_real):\n        super().__init__(valor_real)\n    def valor_total(self):\n        return self.valor_real * 1.5",
-        "detail": "modulo2.classes",
-        "documentation": {}
-    },
-    {
-        "label": "Vip",
-        "kind": 6,
-        "importPath": "modulo2.classes",
-        "description": "modulo2.classes",
-        "peekOfCode": "class Vip(Ingresso):\n    def __init__(self,valor_real):\n        super().__init__(valor_real)\n    def valor_total(self):\n        return self.valor_real * 1.5",
-        "detail": "modulo2.classes",
-        "documentation": {}
-    },
-    {
         "label": "piramide",
         "kind": 2,
         "importPath": "modulo2.exercicio02",
@@ -975,7 +957,7 @@
         "kind": 5,
         "importPath": "modulo2.main",
         "description": "modulo2.main",
-        "peekOfCode": "p3 = Retangulo()\np3.calcularArea(10,10)\np3.calcularPerimetro(10,5)\njogo = JogoJokenpo()\njogo.jogar()",
+        "peekOfCode": "p3 = Retangulo()\np3.calcularArea(10,10)\np3.calcularPerimetro(10,5)\njogo = JogoJokenpo()\njogo.jogar()\np4 = Ingresso(100)\np4.imprimeValor()\np5 = Vip(50)\np5.valor_total()\nprint(f\"Valor total do ingresso VIP: R$ {p5.valor_total():.2f}\")",
         "detail": "modulo2.main",
         "documentation": {}
     },
@@ -984,7 +966,25 @@
         "kind": 5,
         "importPath": "modulo2.main",
         "description": "modulo2.main",
-        "peekOfCode": "jogo = JogoJokenpo()\njogo.jogar()",
+        "peekOfCode": "jogo = JogoJokenpo()\njogo.jogar()\np4 = Ingresso(100)\np4.imprimeValor()\np5 = Vip(50)\np5.valor_total()\nprint(f\"Valor total do ingresso VIP: R$ {p5.valor_total():.2f}\")",
+        "detail": "modulo2.main",
+        "documentation": {}
+    },
+    {
+        "label": "p4",
+        "kind": 5,
+        "importPath": "modulo2.main",
+        "description": "modulo2.main",
+        "peekOfCode": "p4 = Ingresso(100)\np4.imprimeValor()\np5 = Vip(50)\np5.valor_total()\nprint(f\"Valor total do ingresso VIP: R$ {p5.valor_total():.2f}\")",
+        "detail": "modulo2.main",
+        "documentation": {}
+    },
+    {
+        "label": "p5",
+        "kind": 5,
+        "importPath": "modulo2.main",
+        "description": "modulo2.main",
+        "peekOfCode": "p5 = Vip(50)\np5.valor_total()\nprint(f\"Valor total do ingresso VIP: R$ {p5.valor_total():.2f}\")",
         "detail": "modulo2.main",
         "documentation": {}
     },
