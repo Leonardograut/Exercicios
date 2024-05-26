@@ -719,6 +719,24 @@
         "documentation": {}
     },
     {
+        "label": "Ingresso",
+        "kind": 6,
+        "importPath": "modulo2.classes",
+        "description": "modulo2.classes",
+        "peekOfCode": "class Ingresso():\n    def __init__(self,valor_real):\n        self.valor_real = valor_real\n    def imprimeValor(self):\n        print(f'Valor do ingresso {self.valor_real}')\nclass Vip(Ingresso):\n    def __init__(self,valor_real):\n        super().__init__(valor_real)\n    def valor_total(self):\n        return self.valor_real * 1.5",
+        "detail": "modulo2.classes",
+        "documentation": {}
+    },
+    {
+        "label": "Vip",
+        "kind": 6,
+        "importPath": "modulo2.classes",
+        "description": "modulo2.classes",
+        "peekOfCode": "class Vip(Ingresso):\n    def __init__(self,valor_real):\n        super().__init__(valor_real)\n    def valor_total(self):\n        return self.valor_real * 1.5",
+        "detail": "modulo2.classes",
+        "documentation": {}
+    },
+    {
         "label": "piramide",
         "kind": 2,
         "importPath": "modulo2.exercicio02",

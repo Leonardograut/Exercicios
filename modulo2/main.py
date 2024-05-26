@@ -21,3 +21,5 @@ p3.calcularPerimetro(10,5)
 
 jogo = JogoJokenpo()
 jogo.jogar()
+
+
