@@ -1,10 +1,198 @@
 [
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "jogoDavelha",
+        "description": "jogoDavelha",
+        "isExtraImport": true,
+        "detail": "jogoDavelha",
+        "documentation": {}
+    },
+    {
         "label": "*",
         "importPath": "classes",
         "description": "classes",
         "isExtraImport": true,
         "detail": "classes",
+        "documentation": {}
+    },
+    {
+        "label": "exibir_tabuleiro",
+        "kind": 2,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "def exibir_tabuleiro():\n    # Inicializa o tabuleiro do jogo da velha com zeros\n    jogo = inicializar_tabuleiro()\n    # Preenche o tabuleiro com números de 1 a 9\n    count = 1\n    for i in range(3):\n        for j in range(3):\n            jogo[i][j] = count\n            count += 1\n    # Exibe o tabuleiro de forma organizada",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "inicializar_tabuleiro",
+        "kind": 2,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "def inicializar_tabuleiro():\n    return [[\" \" for _ in range(3)] for _ in range(3)]\ndef verifica_vitoria(vetor_da_velha,simbolo):\n    resultado = False\n    # Linha\n    if(vetor_da_velha[0] == simbolo and vetor_da_velha[1] == simbolo and vetor_da_velha[2] == simbolo):\n        resultado = True\n    elif(vetor_da_velha[3] == simbolo and vetor_da_velha[4] == simbolo and vetor_da_velha[5] == simbolo):\n        resultado = True\n    elif(vetor_da_velha[6] == simbolo and vetor_da_velha[7] == simbolo and vetor_da_velha[8] == simbolo):",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "verifica_vitoria",
+        "kind": 2,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "def verifica_vitoria(vetor_da_velha,simbolo):\n    resultado = False\n    # Linha\n    if(vetor_da_velha[0] == simbolo and vetor_da_velha[1] == simbolo and vetor_da_velha[2] == simbolo):\n        resultado = True\n    elif(vetor_da_velha[3] == simbolo and vetor_da_velha[4] == simbolo and vetor_da_velha[5] == simbolo):\n        resultado = True\n    elif(vetor_da_velha[6] == simbolo and vetor_da_velha[7] == simbolo and vetor_da_velha[8] == simbolo):\n        resultado = True\n    # Coluna",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "verifica_vitoria",
+        "kind": 2,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "def verifica_vitoria(vetor_da_velha):\n     resultado = True\n     for i in vetor_da_velha:\n        if(i != \"X\" and i != \"O\"):\n            resultado = False\n     return resultado\njogador = 1\njogador_numero_1 = 0\njogador_numero_2 = 0\nwhile(True):",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "imprime_grid",
+        "kind": 2,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "def imprime_grid(grid):\n\tprint (\"O status do grid é\\n\")\n\tfor indice in range(len(grid)):\n\t\tprint (grid[indice], end=\" \")\n\t\tif indice == 2 or indice == 5 or indice == 8:\n\t\t\tprint (\"\")\ndef verifica_grid(grid, jogador):\n\t# testando linhas\n\tif grid[0] == jogador and grid[1] == jogador and grid[2] == jogador:\n\t\tif jogador == \"X\":",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "verifica_grid",
+        "kind": 2,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "def verifica_grid(grid, jogador):\n\t# testando linhas\n\tif grid[0] == jogador and grid[1] == jogador and grid[2] == jogador:\n\t\tif jogador == \"X\":\n\t\t\treturn 1\n\t\telse:\n\t\t\treturn 2\n\tif grid[3] == jogador and grid[4] == jogador and grid[5] == jogador:\n\t\tif jogador == \"X\":\n\t\t\treturn 1",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "jogador",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "jogador = 1\njogador_numero_1 = 0\njogador_numero_2 = 0\nwhile(True):\n    if (jogador == 1):\n        jogador_numero_1 = input('Digite uma posiçao de  1 a 9')\"\"\"\nimport random\ndef imprime_grid(grid):\n\tprint (\"O status do grid é\\n\")\n\tfor indice in range(len(grid)):",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "jogador_numero_1",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "jogador_numero_1 = 0\njogador_numero_2 = 0\nwhile(True):\n    if (jogador == 1):\n        jogador_numero_1 = input('Digite uma posiçao de  1 a 9')\"\"\"\nimport random\ndef imprime_grid(grid):\n\tprint (\"O status do grid é\\n\")\n\tfor indice in range(len(grid)):\n\t\tprint (grid[indice], end=\" \")",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "jogador_numero_2",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "jogador_numero_2 = 0\nwhile(True):\n    if (jogador == 1):\n        jogador_numero_1 = input('Digite uma posiçao de  1 a 9')\"\"\"\nimport random\ndef imprime_grid(grid):\n\tprint (\"O status do grid é\\n\")\n\tfor indice in range(len(grid)):\n\t\tprint (grid[indice], end=\" \")\n\t\tif indice == 2 or indice == 5 or indice == 8:",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "quantidade_escolhas",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "quantidade_escolhas = 0\t\ngrid = [\"_\"] * 9\nwhile True:\n\tescolha = int(input(\"Qual é a sua escolha \"))\n\twhile grid[escolha-1] != \"_\":\n\t\tprint (\"Sua escolha foi inválida! Veja como está o grid\")\n\t\timprime_grid(grid)\n\t\tescolha = int(input(\"Qual é a sua escolha \"))\n\tgrid[escolha-1] = \"X\"\n\tquantidade_escolhas += 1",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "grid",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "grid = [\"_\"] * 9\nwhile True:\n\tescolha = int(input(\"Qual é a sua escolha \"))\n\twhile grid[escolha-1] != \"_\":\n\t\tprint (\"Sua escolha foi inválida! Veja como está o grid\")\n\t\timprime_grid(grid)\n\t\tescolha = int(input(\"Qual é a sua escolha \"))\n\tgrid[escolha-1] = \"X\"\n\tquantidade_escolhas += 1\n\tvencedor = verifica_grid(grid,\"X\")",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "\tescolha",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "\tescolha = int(input(\"Qual é a sua escolha \"))\n\twhile grid[escolha-1] != \"_\":\n\t\tprint (\"Sua escolha foi inválida! Veja como está o grid\")\n\t\timprime_grid(grid)\n\t\tescolha = int(input(\"Qual é a sua escolha \"))\n\tgrid[escolha-1] = \"X\"\n\tquantidade_escolhas += 1\n\tvencedor = verifica_grid(grid,\"X\")\n\tif vencedor != 0:\n\t\tbreak",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tescolha",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "\t\tescolha = int(input(\"Qual é a sua escolha \"))\n\tgrid[escolha-1] = \"X\"\n\tquantidade_escolhas += 1\n\tvencedor = verifica_grid(grid,\"X\")\n\tif vencedor != 0:\n\t\tbreak\n\tif quantidade_escolhas == 9:\n\t\tbreak\n\timprime_grid(grid)\n\tescolha_computador = random.randint(1,9)",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "\tgrid[escolha-1]",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "\tgrid[escolha-1] = \"X\"\n\tquantidade_escolhas += 1\n\tvencedor = verifica_grid(grid,\"X\")\n\tif vencedor != 0:\n\t\tbreak\n\tif quantidade_escolhas == 9:\n\t\tbreak\n\timprime_grid(grid)\n\tescolha_computador = random.randint(1,9)\n\twhile grid[escolha_computador-1] != \"_\":",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "\tvencedor",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "\tvencedor = verifica_grid(grid,\"X\")\n\tif vencedor != 0:\n\t\tbreak\n\tif quantidade_escolhas == 9:\n\t\tbreak\n\timprime_grid(grid)\n\tescolha_computador = random.randint(1,9)\n\twhile grid[escolha_computador-1] != \"_\":\n\t\tescolha_computador = random.randint(1,9)\n\tgrid[escolha_computador-1] = \"O\"",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "\tescolha_computador",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "\tescolha_computador = random.randint(1,9)\n\twhile grid[escolha_computador-1] != \"_\":\n\t\tescolha_computador = random.randint(1,9)\n\tgrid[escolha_computador-1] = \"O\"\n\tquantidade_escolhas += 1\n\tvencedor = verifica_grid(grid,\"O\")\n\tif vencedor != 0:\n\t\tbreak\n\timprime_grid(grid)\nif vencedor == 1:",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tescolha_computador",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "\t\tescolha_computador = random.randint(1,9)\n\tgrid[escolha_computador-1] = \"O\"\n\tquantidade_escolhas += 1\n\tvencedor = verifica_grid(grid,\"O\")\n\tif vencedor != 0:\n\t\tbreak\n\timprime_grid(grid)\nif vencedor == 1:\n\tprint (\"parabéns, você ganhou\")\nelif vencedor == 2:",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "\tgrid[escolha_computador-1]",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "\tgrid[escolha_computador-1] = \"O\"\n\tquantidade_escolhas += 1\n\tvencedor = verifica_grid(grid,\"O\")\n\tif vencedor != 0:\n\t\tbreak\n\timprime_grid(grid)\nif vencedor == 1:\n\tprint (\"parabéns, você ganhou\")\nelif vencedor == 2:\n\tprint (\"Você perdeu, o computador ganhou\")",
+        "detail": "desafio.jogoDavelha",
+        "documentation": {}
+    },
+    {
+        "label": "\tvencedor",
+        "kind": 5,
+        "importPath": "desafio.jogoDavelha",
+        "description": "desafio.jogoDavelha",
+        "peekOfCode": "\tvencedor = verifica_grid(grid,\"O\")\n\tif vencedor != 0:\n\t\tbreak\n\timprime_grid(grid)\nif vencedor == 1:\n\tprint (\"parabéns, você ganhou\")\nelif vencedor == 2:\n\tprint (\"Você perdeu, o computador ganhou\")\nelse:\n\tprint (\"Deu velha, ninguém venceu, foi empate!\")",
+        "detail": "desafio.jogoDavelha",
         "documentation": {}
     },
     {
