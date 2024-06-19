@@ -1,5 +1,23 @@
 [
     {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
         "label": "random",
         "kind": 6,
         "isExtraImport": true,
@@ -22,6 +40,123 @@
         "description": "classes",
         "isExtraImport": true,
         "detail": "classes",
+        "documentation": {}
+    },
+    {
+        "label": "banco",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "banco = mysql.connector.connect(\n    host=\"localhost\",\n    user=\"root\",\n    password=\"12345\",\n    database=\"aulafinal\"\n)\nnome = input(\"Nome: \")\ncep = input('Digite seu cep: ')\nconsulta = requests.get(f\"http://viacep.com.br/ws/{cep}/json/\")\nendereco = consulta.json()",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "nome = input(\"Nome: \")\ncep = input('Digite seu cep: ')\nconsulta = requests.get(f\"http://viacep.com.br/ws/{cep}/json/\")\nendereco = consulta.json()\ncep1 = endereco['cep']\nlogradouro = endereco['logradouro']\nbairro = endereco['bairro']\nlocalidade = endereco['localidade']\nuf = endereco['uf']\ncursor = banco.cursor()",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "cep",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "cep = input('Digite seu cep: ')\nconsulta = requests.get(f\"http://viacep.com.br/ws/{cep}/json/\")\nendereco = consulta.json()\ncep1 = endereco['cep']\nlogradouro = endereco['logradouro']\nbairro = endereco['bairro']\nlocalidade = endereco['localidade']\nuf = endereco['uf']\ncursor = banco.cursor()\nsql = \"INSERT INTO Endereco(nome, cep, logradouro, bairro, localidade, uf) VALUES (%s, %s, %s, %s, %s, %s)\"",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "consulta",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "consulta = requests.get(f\"http://viacep.com.br/ws/{cep}/json/\")\nendereco = consulta.json()\ncep1 = endereco['cep']\nlogradouro = endereco['logradouro']\nbairro = endereco['bairro']\nlocalidade = endereco['localidade']\nuf = endereco['uf']\ncursor = banco.cursor()\nsql = \"INSERT INTO Endereco(nome, cep, logradouro, bairro, localidade, uf) VALUES (%s, %s, %s, %s, %s, %s)\"\ndata = (nome, cep1, logradouro, bairro, localidade, uf)",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "endereco",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "endereco = consulta.json()\ncep1 = endereco['cep']\nlogradouro = endereco['logradouro']\nbairro = endereco['bairro']\nlocalidade = endereco['localidade']\nuf = endereco['uf']\ncursor = banco.cursor()\nsql = \"INSERT INTO Endereco(nome, cep, logradouro, bairro, localidade, uf) VALUES (%s, %s, %s, %s, %s, %s)\"\ndata = (nome, cep1, logradouro, bairro, localidade, uf)\ncursor.execute(sql, data)",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "cep1",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "cep1 = endereco['cep']\nlogradouro = endereco['logradouro']\nbairro = endereco['bairro']\nlocalidade = endereco['localidade']\nuf = endereco['uf']\ncursor = banco.cursor()\nsql = \"INSERT INTO Endereco(nome, cep, logradouro, bairro, localidade, uf) VALUES (%s, %s, %s, %s, %s, %s)\"\ndata = (nome, cep1, logradouro, bairro, localidade, uf)\ncursor.execute(sql, data)\nbanco.commit()",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "logradouro",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "logradouro = endereco['logradouro']\nbairro = endereco['bairro']\nlocalidade = endereco['localidade']\nuf = endereco['uf']\ncursor = banco.cursor()\nsql = \"INSERT INTO Endereco(nome, cep, logradouro, bairro, localidade, uf) VALUES (%s, %s, %s, %s, %s, %s)\"\ndata = (nome, cep1, logradouro, bairro, localidade, uf)\ncursor.execute(sql, data)\nbanco.commit()\ncursor.close()",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "bairro",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "bairro = endereco['bairro']\nlocalidade = endereco['localidade']\nuf = endereco['uf']\ncursor = banco.cursor()\nsql = \"INSERT INTO Endereco(nome, cep, logradouro, bairro, localidade, uf) VALUES (%s, %s, %s, %s, %s, %s)\"\ndata = (nome, cep1, logradouro, bairro, localidade, uf)\ncursor.execute(sql, data)\nbanco.commit()\ncursor.close()\nbanco.close()",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "localidade",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "localidade = endereco['localidade']\nuf = endereco['uf']\ncursor = banco.cursor()\nsql = \"INSERT INTO Endereco(nome, cep, logradouro, bairro, localidade, uf) VALUES (%s, %s, %s, %s, %s, %s)\"\ndata = (nome, cep1, logradouro, bairro, localidade, uf)\ncursor.execute(sql, data)\nbanco.commit()\ncursor.close()\nbanco.close()",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "uf",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "uf = endereco['uf']\ncursor = banco.cursor()\nsql = \"INSERT INTO Endereco(nome, cep, logradouro, bairro, localidade, uf) VALUES (%s, %s, %s, %s, %s, %s)\"\ndata = (nome, cep1, logradouro, bairro, localidade, uf)\ncursor.execute(sql, data)\nbanco.commit()\ncursor.close()\nbanco.close()",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "cursor = banco.cursor()\nsql = \"INSERT INTO Endereco(nome, cep, logradouro, bairro, localidade, uf) VALUES (%s, %s, %s, %s, %s, %s)\"\ndata = (nome, cep1, logradouro, bairro, localidade, uf)\ncursor.execute(sql, data)\nbanco.commit()\ncursor.close()\nbanco.close()",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "sql",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "sql = \"INSERT INTO Endereco(nome, cep, logradouro, bairro, localidade, uf) VALUES (%s, %s, %s, %s, %s, %s)\"\ndata = (nome, cep1, logradouro, bairro, localidade, uf)\ncursor.execute(sql, data)\nbanco.commit()\ncursor.close()\nbanco.close()",
+        "detail": "aulafinal.viacep",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "aulafinal.viacep",
+        "description": "aulafinal.viacep",
+        "peekOfCode": "data = (nome, cep1, logradouro, bairro, localidade, uf)\ncursor.execute(sql, data)\nbanco.commit()\ncursor.close()\nbanco.close()",
+        "detail": "aulafinal.viacep",
         "documentation": {}
     },
     {
